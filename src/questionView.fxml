@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="159.0" prefWidth="500.0" style="-fx-background-color: white; -fx-background-radius: 20px;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="LabelQuestion" layoutX="36.0" layoutY="14.0" prefHeight="88.0" prefWidth="405.0" text="I really love your product and it is awesome to use the serve. Thank you again for the better service." wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSend" layoutX="305.0" layoutY="109.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="136.0" style="-fx-background-color: red;" text="Reply in email" textFill="WHITE" />
+      <Label fx:id="LabelCD" layoutX="36.0" layoutY="110.0" prefHeight="23.0" prefWidth="310.0" text="created date: 23-02-2023">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

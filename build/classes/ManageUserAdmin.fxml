@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ManageUserAdminController">
+    <children>
+      <ImageView fitHeight="615.0" fitWidth="803.0" layoutX="-3.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/8.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnDashboard" layoutX="42.0" layoutY="166.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="176.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="btnManageUsers" layoutX="46.0" layoutY="217.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="176.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="btnManageTickets" layoutX="45.0" layoutY="262.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="188.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="btnUserQuestion" layoutX="41.0" layoutY="314.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="176.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="btnLogout" layoutX="43.0" layoutY="366.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="176.0" style="-fx-background-color: transparent;" />
+      <ScrollPane fx:id="OrbitScrollPane" layoutX="282.0" layoutY="108.0" prefHeight="454.0" prefWidth="484.0" style="-fx-background-color: transparent;" stylesheets="@style.css">
+         <content>
+            <VBox fx:id="OrbitHolders" prefHeight="456.0" prefWidth="450.0" spacing="10.0" style="-fx-background-color: transparent; -fx-background-radius: 10px;" stylesheets="@style.css">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+      </children>
+</AnchorPane>

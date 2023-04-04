@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="100.0" prefWidth="500.0" style="-fx-background-radius: 25px; -fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="BTNview" layoutX="321.0" layoutY="50.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #00A5FE; -fx-background-radius: 30px;" text="view details" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="fid" layoutX="30.0" layoutY="18.0" prefHeight="23.0" prefWidth="263.0" text="Flight ID: 20">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="fdate" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="309.0" layoutY="17.0" prefHeight="23.0" prefWidth="160.0" text="Starts at 21.03.2023" textAlignment="CENTER">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="forigin" layoutX="30.0" layoutY="56.0" prefHeight="23.0" prefWidth="263.0" text="DAC | 16:30 ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
